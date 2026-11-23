@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal portfolio of a Computer Science student interested in programming, technology, and software development.">
+
+    <title>My Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <!-- Mobile Menu Toggle -->
+        <input type="checkbox" id="menu-toggle">
+
+        <!-- Dark Mode Toggle -->
+        <input type="checkbox" id="theme-toggle">
+
+        <div class="header-inner">
+
+            <a href="#home" class="logo">Jasmine.</a>
+
+            <div class="header-controls">
+
+                <!-- Theme Button -->
+                <label for="theme-toggle" class="theme-button" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon moon-icon"></i>
+                    <i class="fas fa-sun sun-icon"></i>
+                </label>
+
+                <!-- Hamburger Button -->
+                <label for="menu-toggle" class="menu-icon" aria-label="Open navigation menu">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+            </div>
+
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav class="navbar">
+
+            <label for="menu-toggle" class="close-menu" aria-label="Close navigation menu">
+                <i class="fas fa-times"></i>
+            </label>
+
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#academic-information">Academic Information</a>
+            <a href="#education">Education</a>
+            <a href="#skills">My Skills</a>
+            <a href="#projects">My Projects</a>
+            <a href="#contact">Contact Me</a>
+
+        </nav>
+
+        <!-- Mobile Menu Overlay -->
+        <label for="menu-toggle" class="menu-overlay" aria-label="Close navigation menu"></label>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HOME SECTION -->
+        <section class="home section" id="home">
+
+            <div class="home-content">
+
+                <p class="home-intro">Hello, I'm</p>
+
+                <h1>Jasmine R. Torrecampo</h1>
+
+                <h2>Computer Science Student | Aspiring Software Developer</h2>
+
+                <p class="home-description">
+                    I am a Computer Science student interested in programming,
+                    technology, and software development. I am continuously
+                    learning and improving my skills through academic and
+                    personal projects.
+                </p>
+
+                <div class="home-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        View My Projects
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+
+                    <a href="assets/resume.pdf" class="btn btn-resume" download>
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="home-image">
+
+                <div class="profile-image-wrapper">
+                    <img src="assets/profile.jpg" alt="Profile Picture">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT ME SECTION -->
+        <section class="about section" id="about">
+
+            <div class="section-heading">
+                <span class="section-label">Get to Know Me</span>
+                <h2>About Me</h2>
+                <div class="heading-line"></div>
+            </div>
+
+            <div class="about-content">
+
+                <p>
+                    I am currently pursuing a degree in Computer Science and
+                    continuously working on improving my programming and
+                    problem-solving skills. My biggest goal is to develop an
+                    application or website that can help people by addressing
+                    their needs and making a positive impact on their lives.
+                    After graduation, I hope to establish a career in the
+                    technology industry, gain professional experience, and
+                    continue growing as a developer.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACADEMIC INFORMATION SECTION -->
+        <section class="academic section" id="academic-information">
+
+            <div class="section-heading">
+                <span class="section-label">My Academic Details</span>
+                <h2>Academic Information</h2>
+                <div class="heading-line"></div>
+            </div>
+
+            <div class="academic-grid">
+
+                <div class="academic-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <div>
+                        <h3>Name</h3>
+                        <p>Jasmine R. Torrecampo</p>
+                    </div>
+                </div>
+
+
+                <div class="academic-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+
+                    <div>
+                        <h3>Course/Program</h3>
+                        <p>Bachelor of Science in Computer Science</p>
+                    </div>
+                </div>
+
+
+                <div class="academic-card">
+                    <div class="card-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+
+                    <div>
+                        <h3>Year Level</h3>
+                        <p>2</p>
+                    </div>
+                </div>
+
+
+                <div class="academic-card">
+                    <div class="card-icon">
+                        <i class="fas fa-building-columns"></i>
+                    </div>
+
+                    <div>
+                        <h3>College/Department</h3>
+                        <p>College of Information and Communication</p>
+                    </div>
+                </div>
+
+
+                <div class="academic-card">
+                    <div class="card-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+
+                    <div>
+                        <h3>School</h3>
+                        <p>Catanduanes State University</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION SECTION -->
+        <section class="education section" id="education">
+
+            <div class="section-heading">
+                <span class="section-label">My Educational Journey</span>
+                <h2>Education</h2>
+                <div class="heading-line"></div>
+            </div>
+
+            <div class="education-grid">
+
+                <!-- COLLEGE -->
+                <div class="education-card">
+
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+
+                    <div class="education-details">
+
+                        <span class="education-level">COLLEGE</span>
+
+                        <p class="education-year">
+                            2025 - Present
+                        </p>
+
+                        <h3>Catanduanes State University</h3>
+
+                        <p class="education-course">
+                            Bachelor of Science in Computer Science
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SENIOR HIGH SCHOOL -->
+                <div class="education-card">
+
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+
+                    <div class="education-details">
+
+                        <span class="education-level">SENIOR HIGH SCHOOL</span>
+
+                        <p class="education-year">
+                            2023 - 2025
+                        </p>
+
+                        <h3>Cabugao Integrated School</h3>
+
+                        <p class="education-course">
+                            STEM
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- JUNIOR HIGH SCHOOL -->
+                <div class="education-card">
+
+                    <div class="education-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+
+                    <div class="education-details">
+
+                        <span class="education-level">JUNIOR HIGH SCHOOL</span>
+
+                        <p class="education-year">
+                            2019 - 2023
+                        </p>
+
+                        <h3>Cabugao Integrated School</h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section" id="skills">
+
+            <div class="section-heading">
+                <span class="section-label">What I Know</span>
+                <h2>My Skills</h2>
+                <div class="heading-line"></div>
+
+                <p class="section-description">
+                    Here are the programming languages, web technologies,
+                    and development tools I have experience with or am
+                    currently learning.
+                </p>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <!-- PROGRAMMING LANGUAGES -->
+                <div class="skill-card">
+
+                    <div class="skill-card-heading">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <div>
+                            <h4>C++</h4>
+                            <span>Working Knowledge</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div>
+                            <h4>Java</h4>
+                            <span>Basic Knowledge</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div>
+                            <h4>Python</h4>
+                            <span>Beginner</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- WEB DEVELOPMENT -->
+                <div class="skill-card">
+
+                    <div class="skill-card-heading">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <div>
+                            <h4>HTML</h4>
+                            <span>Currently Learning</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div>
+                            <h4>CSS</h4>
+                            <span>Currently Learning</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div>
+                            <h4>JavaScript</h4>
+                            <span>Currently Learning</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- DEVELOPMENT TOOLS -->
+                <div class="skill-card">
+
+                    <div class="skill-card-heading">
+                        <i class="fas fa-screwdriver-wrench"></i>
+                        <h3>Development Tools</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <div>
+                            <h4>Visual Studio Code</h4>
+                            <span>Primary Tool</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div>
+                            <h4>Code::Blocks</h4>
+                            <span>Familiar</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+
+            <div class="section-heading">
+                <span class="section-label">My Work</span>
+                <h2>My Project(s)</h2>
+                <div class="heading-line"></div>
+
+                <p class="section-description">
+                    These are some of the projects I have worked on as part
+                    of my academic and personal learning.
+                </p>
+            </div>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/project1.jpg" alt="Task Management System">
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            Academic Project
+                        </span>
+
+                        <h3>Task Management System</h3>
+
+                        <p>
+                            A Java Swing desktop application designed to help
+                            users organize, manage, and keep track of their tasks.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Java Swing</span>
+                        </div>
+
+                        <span class="project-status">
+                            <i class="fas fa-circle"></i>
+                            In Development
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+
+            <div class="section-heading">
+                <span class="section-label">Get in Touch</span>
+                <h2>Contact Me</h2>
+                <div class="heading-line"></div>
+
+                <p class="section-description">
+                    I am open to connecting with fellow students, developers,
+                    and professionals. Feel free to reach out!
+                </p>
+            </div>
+
+
+            <div class="contact-grid">
+
+                <!-- EMAIL -->
+                <div class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <h3>Email</h3>
+
+                    <a href="mailto:rojasjasmine097@gmail.com">
+                        rojasjasmine097gmail.com
+                    </a>
+      
+                </div>
+
+
+                <!-- GITHUB -->
+                <div class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+
+                    <h3>GitHub</h3>
+
+                    <a href="https://github.com/jasmine0978" target="_blank">
+                        jasmine0978
+                    </a>
+   
+                </div>
+
+
+                <!-- LINKEDIN -->
+                <div class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+
+                    <h3>LinkedIn</h3>
+
+                    <a href="https://www.linkedin.com/in/jasmine-t-329781451?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                        jasmine-t-329781451
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            © 2026 [Your Name]. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
