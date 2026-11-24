@@ -1556,7 +1556,7 @@ input {
 
     /* OPEN MENU */
 
-    #menu-toggle:checked \~ .navbar {
+    #menu-toggle:checked ~ .navbar {
 
         transform: translateX(0);
 
@@ -1564,7 +1564,7 @@ input {
 
     }
 
-    #menu-toggle:checked \~ .menu-overlay {
+    #menu-toggle:checked ~ .menu-overlay {
 
         opacity: 1;
 
@@ -1980,7 +1980,7 @@ input {
 
     }
 
-    #menu-toggle:checked \~ .navbar {
+    #menu-toggle:checked ~ .navbar {
 
         transform: translateX(0);
 
@@ -1988,7 +1988,7 @@ input {
 
     }
 
-    #menu-toggle:checked \~ .menu-overlay {
+    #menu-toggle:checked ~ .menu-overlay {
 
         opacity: 1;
 
