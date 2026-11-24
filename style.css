@@ -1690,9 +1690,10 @@ input {
 
     .home {
 
-        padding-top: 55px;
+        padding-top: 30px;
 
-        padding-bottom: 65px;
+        padding-bottom: 40px;
+       gap: 22px;
 
     }
 
@@ -1716,9 +1717,9 @@ input {
 
     .profile-image-wrapper {
 
-        width: 190px;
+        width: 165px;
 
-        height: 190px;
+        height: 165px;
 
     }
 
@@ -2136,7 +2137,7 @@ input {
 
 }
 
-    /* ========================================
+/*========================================
 
     16.RESPONSIVE LAYOUT IMPROVEMENTS
 
@@ -2517,12 +2518,15 @@ input {
 }
 
 /* Remove special positioning of the last card */
+
 .education-card:last-child:nth-child(odd),
 .skill-card:last-child:nth-child(odd) {
     grid-column: auto;
     width: 100%;
     justify-self: stretch;
-}/* ========================================
+}
+
+/* ========================================
    MOBILE HAMBURGER MENU FIX
 ======================================== */
 
@@ -2563,7 +2567,9 @@ input {
         z-index: 1;
     }
 
-}/* ========================================
+}
+
+/*========================================
    MOBILE MENU WIDTH AND CLOSE BUTTON FIX
 ======================================== */
 
