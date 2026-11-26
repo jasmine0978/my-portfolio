@@ -1671,7 +1671,7 @@ input {
 @media (max-width: 480px) {
 
    .section:not(.home) {
-    padding: 10px 6% 75px;
+    padding: 35px 6% 75px;
 }
 
     .section-heading {
